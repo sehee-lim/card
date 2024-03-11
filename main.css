@@ -130,3 +130,10 @@ body {
   margin-right: 8px;
   font-size: 18px;
 }
+
+/* 화면 크기가 640px 이하일 때 */
+@media (max-width: 640px) {
+  body {
+    word-break: keep-all;
+  };
+}
